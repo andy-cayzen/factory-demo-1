@@ -14,5 +14,6 @@ A small backend-only demo app used by Cayzen sandbox runner tests.
 - `GET /health`
 - `GET /releases`
 - `GET /releases/:id`
+- `GET /releases/:id/evidence.csv`
 
 The repeatable Cayzen work package for this repo is `WP-DEMO-001`: add a CSV export endpoint for release evidence without opening a pull request.
